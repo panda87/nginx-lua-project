@@ -2,7 +2,7 @@
 
 ## Setup command
 
-1. Clone this project `git clone `
+1. Clone this project `git clone https://github.com/panda87/nginx-lua-project.git`
 2. Enter the dir `cd nginx-lua-project`
 3. Run docker `docker run -d --name nginx -v "$(pwd)":/var/nginx -v "$(pwd)"/config/nginx.conf:/opt/openresty/nginx/conf/nginx.conf -p 8080:8080 ficusio/openresty`
 
